@@ -31,8 +31,6 @@ Thumbs.db
 *.stTheme.cache
 *.tmlanguage.cache
 *.tmPreferences.cache
-# Composer
-composer.lock
 # Eclipse
 .settings/*
 # JetBrains, aka PHPStorm, IntelliJ IDEA
