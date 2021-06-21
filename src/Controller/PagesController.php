@@ -62,6 +62,7 @@ class PagesController extends AppController
         $this->set(compact('page', 'subpage'));
 
         try {
+            $this->viewBuilder()->enableAutoLayout(false);
             return $this->render(implode('/', $path));
         } catch (MissingTemplateException $exception) {
             if (Configure::read('debug')) {
